@@ -1,103 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-11T17:16:52 BDT" name="Default suite" finished-at="2025-04-11T17:17:14 BDT" duration-ms="21201">
+  <suite started-at="2025-04-11T17:42:50 BDT" name="Default suite" finished-at="2025-04-11T17:42:59 BDT" duration-ms="9323">
     <groups>
     </groups>
-    <test started-at="2025-04-11T17:16:52 BDT" name="Default test" finished-at="2025-04-11T17:17:14 BDT" duration-ms="21201">
-      <class name="phSkillTest.QuantityButtonTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:phSkillTest.QuantityButtonTest@158da8e]" started-at="2025-04-11T17:16:52 BDT" name="setUp" finished-at="2025-04-11T17:16:54 BDT" duration-ms="1501" status="PASS">
+    <test started-at="2025-04-11T17:42:50 BDT" name="Default test" finished-at="2025-04-11T17:42:59 BDT" duration-ms="9323">
+      <class name="phSkillTest.PaginationTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:phSkillTest.PaginationTest@47af7f3d]" started-at="2025-04-11T17:42:50 BDT" name="setUp" finished-at="2025-04-11T17:42:51 BDT" duration-ms="1527" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testPlusButtonClick()[pri:0, instance:phSkillTest.QuantityButtonTest@158da8e]" started-at="2025-04-11T17:16:54 BDT" name="testPlusButtonClick" finished-at="2025-04-11T17:17:05 BDT" duration-ms="10925" status="PASS">
+        <test-method signature="testPagination()[pri:0, instance:phSkillTest.PaginationTest@47af7f3d]" started-at="2025-04-11T17:42:51 BDT" name="testPagination" finished-at="2025-04-11T17:42:59 BDT" duration-ms="7682" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testPlusButtonClick -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:phSkillTest.QuantityButtonTest@158da8e]" started-at="2025-04-11T17:17:05 BDT" name="tearDown" finished-at="2025-04-11T17:17:05 BDT" duration-ms="101" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- phSkillTest.QuantityButtonTest -->
-      <class name="phSkillTest.AddToCart">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:phSkillTest.AddToCart@5af3afd9]" started-at="2025-04-11T17:17:05 BDT" name="setUp" finished-at="2025-04-11T17:17:06 BDT" duration-ms="1181" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="clickFirstAddToCartButton()[pri:0, instance:phSkillTest.AddToCart@5af3afd9]" started-at="2025-04-11T17:17:06 BDT" name="clickFirstAddToCartButton" finished-at="2025-04-11T17:17:13 BDT" duration-ms="7371" status="FAIL">
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
-            <message>
-              <![CDATA[element click intercepted: Element <button class="md:font-SFProDisplaySemibold whitespace-nowrap text-2xs bg-white border border-primary rounded py-1 px-[2px] md:px-2 text-primary duration-300">...</button> is not clickable at point (439, 14). Other element would receive the click: <nav class="container h-full flex items-center gap-8 xl:gap-14 justify-between">...</nav>
-  (Session info: chrome=135.0.7049.85)
-Build info: version: '4.19.1', revision: 'abe0ee07dc'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.2', java.version: '22.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4c6b351f88611b9e9cd68da76c6a7acf, clickElement {id=f.DAA86AFEB4056A98627E31D9CD3C2C15.d.9FAF6D9E267B7BEDD3633ADD99AA7877.e.69}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.85, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: /var/folders/rv/1rk7txpd0gz...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57621}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:57621/devtoo..., se:cdpVersion: 135.0.7049.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on mac (4c6b351f88611b9e9cd68da76c6a7acf)] -> xpath: //button[contains(text(), 'Add to Cart')]]
-Session ID: 4c6b351f88611b9e9cd68da76c6a7acf]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button class="md:font-SFProDisplaySemibold whitespace-nowrap text-2xs bg-white border border-primary rounded py-1 px-[2px] md:px-2 text-primary duration-300">...</button> is not clickable at point (439, 14). Other element would receive the click: <nav class="container h-full flex items-center gap-8 xl:gap-14 justify-between">...</nav>
-  (Session info: chrome=135.0.7049.85)
-Build info: version: '4.19.1', revision: 'abe0ee07dc'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.2', java.version: '22.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4c6b351f88611b9e9cd68da76c6a7acf, clickElement {id=f.DAA86AFEB4056A98627E31D9CD3C2C15.d.9FAF6D9E267B7BEDD3633ADD99AA7877.e.69}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.85, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: /var/folders/rv/1rk7txpd0gz...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57621}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:57621/devtoo..., se:cdpVersion: 135.0.7049.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on mac (4c6b351f88611b9e9cd68da76c6a7acf)] -> xpath: //button[contains(text(), 'Add to Cart')]]
-Session ID: 4c6b351f88611b9e9cd68da76c6a7acf
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-at phSkillTest.AddToCart.clickFirstAddToCartButton(AddToCart.java:42)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickFirstAddToCartButton -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:phSkillTest.AddToCart@5af3afd9]" started-at="2025-04-11T17:17:13 BDT" name="tearDown" finished-at="2025-04-11T17:17:14 BDT" duration-ms="99" status="PASS">
+        </test-method> <!-- testPagination -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:phSkillTest.PaginationTest@47af7f3d]" started-at="2025-04-11T17:42:59 BDT" name="tearDown" finished-at="2025-04-11T17:42:59 BDT" duration-ms="97" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- phSkillTest.AddToCart -->
+      </class> <!-- phSkillTest.PaginationTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
